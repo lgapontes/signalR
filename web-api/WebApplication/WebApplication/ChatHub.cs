@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web;
 using Microsoft.AspNet.SignalR;
-namespace SignalRChat
+namespace WebApplication
 {
     public class ChatHub : Hub
     {

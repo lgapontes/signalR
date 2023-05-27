@@ -1,7 +1,11 @@
 ﻿using Owin;
 using Microsoft.Owin;
-[assembly: OwinStartup(typeof(SignalRChat.Startup))]
-namespace SignalRChat
+using System.Threading.Tasks;
+using System.Web.UI.WebControls;
+using System;
+
+[assembly: OwinStartup(typeof(WebApplication.Startup))]
+namespace WebApplication
 {
     public class Startup
     {

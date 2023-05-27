@@ -13,12 +13,11 @@ namespace WebApplication.Controllers
 {
     public class ValuesController : ApiController
     {
+
         // GET api/values
         public IEnumerable<string> Get()
-        {
-            Debug.WriteLine("TESTE");
-            //EnviarMensagens.Send("Mensagem do Servidor");
-            Clients.All.addNewMessageToPage(name, message);
+        {            
+            EnviarMensagens.EnviarMensagemPeloDotNetCore("teste mensagem");
             return new string[] { "value1", "value2" };
         }
 
