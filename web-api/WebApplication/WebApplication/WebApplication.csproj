@@ -303,7 +303,8 @@
     <Compile Include="ChatHub.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
-    <Compile Include="EnviarMensagens.cs" />
+    <Compile Include="MensagensDiferentesEXEs.cs" />
+    <Compile Include="MensagensMesmoServidor.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
