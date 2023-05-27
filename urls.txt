@@ -1,0 +1,3 @@
+https://localhost:44350/Home/Chat
+https://localhost:44350/api/msg-mesmo-servidor
+https://localhost:44350/api/simular-windows-forms
